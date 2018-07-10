@@ -61,14 +61,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 #options-section{
   width: 100%; 
 }
-/*Hide the skip map button off screen*/
-#skip-map{
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  right: -50px;
-  top: 50px;
-}
+
 /* ====================== Navigation ====================== */
 
 /* Buttons 
@@ -111,6 +104,24 @@ nav h1 a:hover{
     font-size: 17px;
     margin: 0;
     width: 100%;
+}
+
+/*Hide the skip map button off screen*/
+#skip-map{
+  background: #da7b10;
+  color: white;
+  position: absolute;
+  font-size: 7pt;
+  height: 26px;
+  width: 98px;
+  padding-left: 2px;
+  right: -1000px;
+  top: 50px;
+}
+/*Show the skip link to the user on focus*/
+#skip-map:focus{
+  right: 3px;
+  top: 15px;
 }
 
 /* Display list items side by side */

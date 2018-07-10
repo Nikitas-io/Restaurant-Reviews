@@ -3,7 +3,11 @@
     header nav h1 a {
         font-size: 15pt;
     }
-
+    header #skip-map:focus {
+        font-size: 6pt;
+        top: 25px;
+        width: 90px;
+    }
     nav h1 a {
         color: #fff;
         font-size: 10pt;
@@ -14,49 +18,58 @@
     .filter-options {
         min-height: 135px;
     }
-
     #restaurants-list {
         display: inline;
     }
-
     #restaurants-list li {
         max-width: 200px;
         min-width: 200px;
     }
 }
 
-@media screen and (min-width: 444px) and (max-width: 550px){
+@media screen and (min-width: 444px) and (max-width: 550px) {
     header nav h1 a {
-        font-size: 20pt;
+        font-size: 17pt;
     }
-
+    header #skip-map:focus {
+        font-size: 6pt;
+        top: 25px;
+        width: 92px;
+    }
     #restaurants-list {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
-
-    #restaurant-list li{
+    #restaurant-list li {
         min-width: 240px;
         max-height: 400px;
     }
-
     #restaurants-list li a {
         min-height: 30px;
         font-size: 14pt;
     }
+    .filter-options {
+        min-height: 135px;
+    }
 }
 
-@media screen and (min-width: 551px) and (max-width: 650px){
+@media screen and (min-width: 551px) and (max-width: 650px) {
+    header nav h1 a {
+        font-size: 19pt;
+    }
+    header #skip-map:focus {
+        font-size: 7pt;
+        top: 9px;
+        width: 97px;
+    }
     #restaurants-list {
         margin-left: auto;
         margin-right: auto;
         width: 50%;
     }
-
-    #restaurant-list li{
+    #restaurant-list li {
         min-width: 240px;
         max-height: 400px;
     }
 }
-
