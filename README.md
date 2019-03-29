@@ -1,8 +1,8 @@
-# Restaurant Reviews App—Stage 1
+# Restaurant Reviews App
 
 ## Project Overview
 
-For the **Restaurant Reviews, stage 1** project, I convert the static webpage provided to a mobile-ready web application. I took the static design that lacked accessibility and converted it to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for the user.
+Made this Restaurant Reviews project to a mobile-ready web application from a static design that lacked accessibility and converted it to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for the user, by caching the page's data. 
 
 ## Run the app
 
