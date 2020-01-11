@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-Made this Restaurant Reviews project to a mobile-ready web application from a static design that lacked accessibility and converted it to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for the user, by caching the page's data. 
+Responsive Mobile-ready Restaurant Reviews web application designed to be accessible for screen reader use. I added a service worker to begin the process of creating a seamless offline experience for the user, by caching the page's data. 
 
 ## Run the app
 
